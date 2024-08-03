@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #404040;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.number {
+  background-color: aliceblue;
+  color: #404040;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+.grid-1 {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+  align-items: center;
+}
+
+.grid-2 {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+  align-items: center;
+}
+
+.center {
+  margin: auto;
+  align-items: center;
+}
+
+.input-field {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: aliceblue;
+  background-color: transparent;
+  border: 2px solid aliceblue;
+  font-family: 'Press Start 2P', sans-serif;
+  /* #98FB98 */
+}
+
+button {
+  background-color: aliceblue;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border: 0px solid;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #404040;
+}
+
+button:hover {
+  width: 155px;
+  height: 55px;
+}
+
+p {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: auto;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+}
